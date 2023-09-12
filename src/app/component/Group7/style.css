@@ -1,0 +1,15 @@
+/* style.css */
+#image-container {
+    /* Default image size */
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 1025px) {
+    #image-container {
+      /* Adjusted image size for screens <= 1025px */
+      width: 100%;
+      height: auto;
+    }
+  }
+  

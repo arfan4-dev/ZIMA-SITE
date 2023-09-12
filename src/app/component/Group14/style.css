@@ -1,0 +1,16 @@
+#wrapperFourtenth{
+    height: 100vh;
+    width: 100%;
+    /* horizontal slider remove */
+    overflow-x: hidden;
+    /* Vertical slider ON */
+    overflow-y: auto;
+    
+}
+
+@media(max-width:600px){
+    
+    p{
+        font-size:13px;
+    }
+}

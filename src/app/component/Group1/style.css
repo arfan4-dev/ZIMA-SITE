@@ -1,0 +1,73 @@
+#wrapper{
+    height: 100vh;
+    width: 100%;
+    /* horizontal slider remove */
+    overflow-x: hidden;
+    /* Vertical slider ON */
+    overflow-y: auto;
+    
+}
+
+#containerOne{
+    /* background-color: antiquewhite; */
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+}
+ #blurOne{
+    position: absolute;
+            width: 100%;
+            height: 100%;
+            /* background-color: white; */
+            backdrop-filter: blur(25px); /* Adjust the blur radius as needed */
+            z-index: 1;
+
+}
+
+#blurOne div p{
+    font-size:40px
+}
+
+@media (max-width:500){
+
+    #imgOne {
+        width: 200px;
+        height: 200px;
+    }
+
+    #blurOne {
+        padding: 10px;
+    }
+
+    #paraOne {
+        font-size: 10px;
+        color: red;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+.wrapperThirteen{
+    height: 100vh;
+    width: 100%;
+    /* horizontal slider remove */
+    overflow-x: hidden;
+    /* Vertical slider ON */
+    overflow-y: auto;
+}
+#containerThirteen{
+    height: 100vh;
+    margin: 0 auto;
+}
+
+@media  (max-width: 700px) {
+   
+    #img13{
+        width: fit-content ;
+        height: fit-content ;
+
+    }
+    #hr{
+        width: 200px;
+      
+    }
+    #img13A,#img13B,#img13C{
+        width: 60px ;
+        height: 30px  ;
+
+    }
+}

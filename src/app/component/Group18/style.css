@@ -1,0 +1,22 @@
+@media (max-width: 1025px) {
+    #imgA {
+      width:auto ;
+      height:auto ;
+    }
+ 
+    div p{
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #imgA {
+      width:200px ;
+      height:150px ;
+    }
+ 
+    div p{
+        
+        font-size: 12px;
+    }
+  }

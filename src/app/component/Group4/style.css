@@ -1,0 +1,36 @@
+.wrapperFour{
+  height: 100vh;
+  width: 100%;
+  /* horizontal slider remove */
+  overflow-x: hidden;
+  /* Vertical slider ON */
+  overflow-y: auto;
+}
+#containerFour{
+  height: 100%;
+}
+
+
+
+
+@media (max-width: 768px) { /* Small screens */
+  #letterPara {
+      /* margin: 0 auto; */
+      width: 10%;
+      font-size:100px ;
+      
+    }
+
+    .bg-transparent p{
+      padding: 5px;
+    }
+  }
+  
+  @media (max-width: 1024px) { /* Medium screens */
+   
+
+    #letterPara{
+    
+     text-align: center;
+    }
+  }

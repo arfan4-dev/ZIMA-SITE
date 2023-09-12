@@ -1,0 +1,29 @@
+.wrapperTwo{
+  height: 100vh;
+  width: 100%;
+  /* horizontal slider remove */
+  overflow-x: hidden;
+  /* Vertical slider ON */
+  overflow-y: auto;
+  
+}
+  
+  /* Media query for medium screens */
+  @media  (min-width: 452px) and (max-width: 672px) {
+    #first {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+      align-items: center;
+    
+    
+    }
+   #firstA{
+      margin-bottom:40px
+    }
+    
+   #firstB{
+      /* margin-right:450px */
+    }
+  }
+  
